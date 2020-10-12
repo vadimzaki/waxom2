@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif;
+}
+
+header{
+    box-sizing: border-box;
+    padding: 50px 100px;
+    height: 650px;
+    width: 100%x;
+    background-size: cover;
+    background-image: url(img/bg_photo_11949.png);
+}
+
+.flex-header{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+.menu-list{
+    margin-left: 5
+    0px;
+    font: Montserrat;
+font-size: 14px;
+line-height: 1.2;
+font-weight: 300;
+color: #ffffff;
+display: flex;
+list-style: none;
+}
+
+.list-href{
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu-list-item{
+    margin-left: 30px;
+}
+
+
+.list-href{display: inline-block;}
+.list-href:after {
+    display: block; /*превращаем его в блочный элемент*/
+    content: ""; /*контента в данном блоке не будет поэтому в кавычках ничего не ставим*/
+    height: 2px; /*задаём высоту линии*/
+    width: 0%; /*задаём начальную ширину элемента (линии)*/
+    background-color: #998675; /*цвет фона элемента*/
+    transition: width 0.4s ease-in-out; /*данное свойство отвечает за плавное изменение ширины. Здесь можно задать время анимации в секундах (в данном случае задано 0.4 секунды)*/
+    margin-top: 5px;
+    }
+    .list-href:hover:after,
+    .list-href:focus:after {
+width: 100%;
+}
+
+.top-header{
+    text-align: center;
+}
+
+.top-heading{
+    font-family: Raleway;
+font-size: 36px;
+line-height: 1.2;
+font-weight: 500;
+color: #ffffff;
+margin-bottom: 10px;
+}
+
+.top-offer{
+    font-family: Raleway;
+font-size: 52px;
+line-height: 1.2;
+font-weight: 800;
+color: #ffffff;
+margin-bottom: 10px;
+}
+
+.top-text{
+    font-family: Montserrat;
+font-size: 16px;
+line-height: 24px;
+font-weight: 300;
+color: #ffffff;
+margin-bottom: 60px;   
+ 
+}
+
+.header-button{
+    text-decoration: none;
+    font-family: Raleway;
+font-size: 14px;
+line-height: 23px;
+font-weight: 800;
+text-transform: uppercase;
+color: #ffffff;
+padding: 15px 40px;
+background-color: #998675;
+border-radius: 10px;
+}
+
+.header-button:hover{box-shadow: 0 0 5px 2px #998675;}
+
+.box-item-b{
+    margin-left: 20px;
+}
+
+.staff{
+    align-items: flex-end;
+    padding: 80px 150px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.staff-box{
+    width: 24%;
+    text-align: center;
+    display: inline-block;
+}
+.staff-box:after {
+    display: block; /*превращаем его в блочный элемент*/
+    content: ""; /*контента в данном блоке не будет поэтому в кавычках ничего не ставим*/
+    height: 5px; /*задаём высоту линии*/
+    width: 0%; /*задаём начальную ширину элемента (линии)*/
+    background-color: #998675; /*цвет фона элемента*/
+    transition: width 0.4s ease-in-out; /*данное свойство отвечает за плавное изменение ширины. Здесь можно задать время анимации в секундах (в данном случае задано 0.4 секунды)*/
+    margin-top: 20px;
+    opacity: 50%;
+    }
+    .staff-box:hover:after,
+    .staff-box:focus:after {
+width: 100%;
+}
+
+.staff-icon{
+    margin-bottom: 30px;
+}
+
+.staff-name{
+    font-family: Raleway;
+font-size: 22px;
+line-height: 1.2;
+font-weight: 600;
+color: #555555;
+margin-bottom: 20px;
+}
+
+.staff-text{
+    font-family: Raleway;
+font-size: 14px;
+line-height: 24px;
+font-weight: 300;
+color: #555555;
+}
+
+.waxom{
+height: 734px;
+background-color: #fbfaf8;
+text-align: center;
+padding: 50px  0;
+box-sizing: border-box;
+}
+.waxom__name{
+color: #555555;
+font-family: Raleway;
+font-size: 30px;
+font-weight: 400;
+margin-bottom: 24px;
+}
+.waxom__text{
+    display: block;
+max-width: 750px;
+margin: 0 auto;
+color: #8c8c8c;
+font-family: Raleway;
+font-size: 16px;
+font-weight: 300;
+line-height: 28px;
+margin-bottom: 88px;    
+}
+
+.waxon__browser{
+    margin: 0 auto;
+}
+
+
+.waxon__offer{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 50px 80px 0;
+height: 100px;
+background-color: #f4f5f8;
+background-image: linear-gradient(to right, #211b19 0%, #4e3427 100%);
+}
+
+
+.waxon__offer__name{
+color: #ffffff;
+font-family: Raleway;
+font-size: 28px;
+font-weight: 400;
+}
+
+.waxon__offer__text{
+color: #615855;
+font-family: Montserrat;
+font-size: 18px;
+font-weight: 300;
+}
+
+
+.projects{
+    text-align: center;
+    padding: 80px 370px;
+}
+
+.projects__name{
+color: #555555;
+font-family: Raleway;
+font-size: 34px;
+font-weight: 400;
+margin-bottom: 24px;
+}
+
+
+.projects__text{
+color: #8c8c8c;
+font-family: Raleway;
+font-size: 20px;
+font-weight: 300;
+line-height: 28px;
+margin: 0 auto;
+margin-bottom: 40px;
+}
+
+
+.projects__nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.projects__nav__href{
+    margin: 10px;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    color: #8c8c8c;
+border: 1px solid #8c8c8c;
+background-color: #ffffff;
+}
+.projects__nav__href:hover{
+    color: #fff;
+    background-color: #998675;
+}
+
+.project__content__card{
+    width: 370px;
+    height: 340px;
+    border: 1px solid #000;
+}
+
+
+
+.card_arrow{
+    background-color: black;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
